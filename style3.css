@@ -1,0 +1,189 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  background-color: rgb(222, 255, 205);
+ margin: 0 auto 0;
+ padding: 5px;
+ text-align: center;
+ color:rgb(75, 108, 228);
+}
+div.hero{
+  width: 80;
+  margin: 0 auto 0 auto;
+  background-color:rgba(255, 203, 155, 0.795);
+}
+.eep{
+  text-align: center;
+}
+.slidershow{
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+}
+.middle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+.navigation{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+.bar{
+  width: 50px;
+  height: 10px;
+  border: 2px solid #4e102e;
+  margin: 3px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.bar.hover{
+  background: #eb7fb9;
+}
+
+input[name="r"]{
+  position: absolute;
+  visibility: hidden;
+}
+
+.slides{
+  width: 500%;
+  height: 100%;
+  display: flex;
+}
+
+.slide{
+  width: 20%;
+  transition: 0.6s;
+}
+
+.slide img{
+  width: 100%;
+  height: 100%;
+}
+
+#r1:checked ~ .s1{
+  margin-left: 0;
+}
+#r2:checked ~ .s1{
+  margin-left: -20%;
+}
+#r3:checked ~ .s1{
+  margin-left: -40%;
+}
+#r4:checked ~ .s1{
+  margin-left: -60%;
+}
+#r5:checked ~ .s1{
+  margin-left: -80%;
+}
+
+nav ul{
+  background-color: rgb(200, 216, 230);
+    text-align: center;
+  }
+  li{
+    display: inline-block;
+    width: 150px;
+    border: 2px solid white;
+    line-height: 3em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-variant: small-caps;
+    }
+.hero {
+text-align: center;
+color: rgb(75, 108, 228);border: 5px solid rgb(234, 99, 121);
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div.footer{
+color:rgb(76, 89, 177)
+}
+/* inspo page */
+div.inspo{
+  background-color: #f4d4e4;
+  overflow: hidden;
+  position: absolute;
+  padding: 10px;
+}
+.introduction{
+  position: absolute;
+  margin-left: 20%;
+  width: 50%;
+  text-align: center;
+  padding: 10px;
+  border:solid rgb(152, 172, 244);
+  background-color:rgb(174, 174, 174);
+}
+
+/*contact page*/
+div.contact{
+  width: 50%;
+  float: right;
+  color:rgb(76, 89, 177);
+  box-sizing: border-box;
+  text-align: center;
+  margin-right: 50px;
+  margin-left: 10px;
+  height: 600px;
+  background-color: rgb(220, 202, 202);
+}
+div.aside{
+  width: 40%; 
+  float: left;
+  margin-left: 4%;
+  box-sizing: border-box;
+  color:rgb(76, 89, 177);
+  overflow: hidden;
+  height: 600px;
+  background-color: rgb(220, 202, 202);
+}
+
+
+/* art page */
+div.footer{
+  background-color: rgb(202, 176, 176);
+  overflow: hidden;
+  padding: 10px;
+}
+div.portrait{
+float: right;
+}
+div.bobafish{
+float: left;
+width: 20%;
+margin: 0 auto 0;
+}
+div.jinx{
+float: right;
+width: 27%;
+}
+div.boba{
+float: left;
+width: 30%;
+padding-top: 30px;
+}
+div.text{
+float: left;
+width: 30%;
+padding-top: 20px;
+color: rgb(54, 42, 101);
+}
+ 
+/* media */
+div.panda{
+  float: left;
+}
+div.ee{
+  float: right;
+  width: 50%;
+  height: 50%;
+  padding: 20px;
+}
+
+
